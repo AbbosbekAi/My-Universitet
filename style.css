@@ -1,0 +1,37 @@
+.fakultet {
+    text-align: center;
+    text-align: left;
+    display: flex;
+    gap: 99px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+
+
+.logolar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logolar img {
+    width: 150px;
+    height: auto;
+    border-radius: 25%;
+}
+
+.name {
+    text-align: center;
+}
+
+.paragraf {
+    text-align: center;
+    font-style: italic;
+
+}
+
+.history {
+    text-align: center;
+    font-size: large;
+}
