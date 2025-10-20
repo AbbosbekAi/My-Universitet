@@ -1,0 +1,182 @@
+body {
+    background-color: #b0a6b7;
+}
+
+/** Bosh Sahifa style **/
+.logolar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    max-width: 100%;
+    height: auto;
+}
+
+.logolar img {
+    width: 150px;
+    height: auto;
+    border-radius: 25%;
+    max-width: 100%;
+}
+
+.name {
+    text-align: center;
+}
+
+.paragraf {
+    text-align: center;
+    font-style: italic;
+
+}
+
+.history {
+    text-align: center;
+    font-size: large;
+}
+
+
+
+/**  FAQ  **/
+
+.faq-boshqaruv {
+    margin-top: 20%;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+/* Fakultetlar */
+
+.fakultet1 {
+    display: flex;
+    text-align: left;
+}
+
+.fakultet1 {
+    display: flex;
+    text-align: right;
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    background-color: white;
+}
+
+.left-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+
+/** Fakultetlar hammasi **/
+
+.a {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.b {
+    color: black;           /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    
+}
+
+
+.c {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.d {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.e {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.f {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.g {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.h {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+.j {
+    color: black;            /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+}
+
+
+/** Fakultet Rasmlar **/
+.photo {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 5%;
+}
+
+
+/** Mobil UI **/
+
+.fakultet {
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    gap: 99px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    justify-content: center; /* chiroyli markazlash uchun */
+    flex-wrap: wrap; /* juda kichik ekranda siqilmasligi uchun */
+    margin-top: 5%;
+}
+
+/* 📱 Mobil ekranlar uchun moslash */
+@media (max-width: 600px) {
+    .fakultet {
+        flex-direction: column; /* yonma-yon emas, pastma-past bo'ladi */
+        gap: 20px; /* mobil uchun masofa kichikroq */
+        font-size: medium; /* xohlasang shriftni ham moslashtirdik */
+        
+    }
+}
+
+
+
+/** Web saytning eng pastki qismi uchun **/
+
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4e4e4e;
+  color: #fff;
+  font-size: 14px;
+  z-index: 9999;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.15);
+}
