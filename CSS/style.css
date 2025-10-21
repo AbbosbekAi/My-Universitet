@@ -1,5 +1,5 @@
 body {
-    background-color: #b0a6b7;
+    background-color: #ffffff;
 }
 
 /** Bosh Sahifa style **/
@@ -21,6 +21,7 @@ body {
 
 .name {
     text-align: center;
+    margin-top: 5%;
 }
 
 .paragraf {
@@ -34,12 +35,17 @@ body {
     font-size: large;
 }
 
-
+.video {
+    text-align: center;
+    margin-top: 15%;
+    max-width: 100%;
+    height: auto;
+}
 
 /**  FAQ  **/
 
 .faq-boshqaruv {
-    margin-top: 20%;
+    margin-top: 5%;
     text-align: center;
     font-size: larger;
 }
@@ -74,58 +80,83 @@ body {
 
 /** Fakultetlar hammasi **/
 
+
 .a {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .b {
     color: black;           /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
+}    
+
+
+.bb {
+    color: blue;           /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
+    margin-top: 20%;
     
+}
+
+.bbb {
+    color: blue;           /* oddiy holatda qora */
+    text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: large;
+    margin-top: 20%;
 }
 
 
 .c {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .d {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .e {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .f {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .g {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .h {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
 .j {
     color: black;            /* oddiy holatda qora */
     text-decoration: none;   /* pastki chiziqni olib tashlaydi */
+    font-size: x-large;
 }
 
 
@@ -136,6 +167,28 @@ body {
     display: flex;
     border-radius: 5%;
 }
+
+
+/** Haqida **/
+
+.immage {
+    width: 280px;
+    padding: 2% 40%;
+    height: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/** FAQ **/
+
+.hizmat {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 
 
 /** Mobil UI **/
@@ -170,13 +223,14 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 48px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #4e4e4e;
+  background: blue;
   color: #fff;
   font-size: 14px;
   z-index: 9999;
   box-shadow: 0 -2px 6px rgba(0,0,0,0.15);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
